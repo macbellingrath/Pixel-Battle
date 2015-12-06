@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6745F821BDE760C008E0A57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6745F811BDE760C008E0A57 /* AppDelegate.swift */; };
+		E6745F841BDE760C008E0A57 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E6745F831BDE760C008E0A57 /* GameScene.sks */; };
+		E6745F861BDE760C008E0A57 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6745F851BDE760C008E0A57 /* GameScene.swift */; };
+		E6745F881BDE760C008E0A57 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6745F871BDE760C008E0A57 /* GameViewController.swift */; };
+		E6745F8B1BDE760C008E0A57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6745F891BDE760C008E0A57 /* Main.storyboard */; };
+		E6745F8D1BDE760C008E0A57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6745F8C1BDE760C008E0A57 /* Assets.xcassets */; };
+		E6745F901BDE760C008E0A57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6745F8E1BDE760C008E0A57 /* LaunchScreen.storyboard */; };
+		E6745F9B1BDE760C008E0A57 /* PixelBattleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6745F9A1BDE760C008E0A57 /* PixelBattleTests.swift */; };
+		E6745FA81BDE7A26008E0A57 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = E6745FA61BDE7A26008E0A57 /* spark.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6745F971BDE760C008E0A57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6745F761BDE760C008E0A57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6745F7D1BDE760C008E0A57;
+			remoteInfo = PixelBattle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6745F7E1BDE760C008E0A57 /* PixelBattle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixelBattle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6745F811BDE760C008E0A57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6745F831BDE760C008E0A57 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E6745F851BDE760C008E0A57 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E6745F871BDE760C008E0A57 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E6745F8A1BDE760C008E0A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6745F8C1BDE760C008E0A57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6745F8F1BDE760C008E0A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6745F911BDE760C008E0A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6745F961BDE760C008E0A57 /* PixelBattleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixelBattleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6745F9A1BDE760C008E0A57 /* PixelBattleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelBattleTests.swift; sourceTree = "<group>"; };
+		E6745F9C1BDE760C008E0A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6745FA61BDE7A26008E0A57 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spark.png; path = Assets.xcassets/spark.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6745F7B1BDE760C008E0A57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6745F931BDE760C008E0A57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6745F751BDE760C008E0A57 = {
+			isa = PBXGroup;
+			children = (
+				E6745F801BDE760C008E0A57 /* PixelBattle */,
+				E6745F991BDE760C008E0A57 /* PixelBattleTests */,
+				E6745F7F1BDE760C008E0A57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6745F7F1BDE760C008E0A57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6745F7E1BDE760C008E0A57 /* PixelBattle.app */,
+				E6745F961BDE760C008E0A57 /* PixelBattleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6745F801BDE760C008E0A57 /* PixelBattle */ = {
+			isa = PBXGroup;
+			children = (
+				E6745F811BDE760C008E0A57 /* AppDelegate.swift */,
+				E6745F831BDE760C008E0A57 /* GameScene.sks */,
+				E6745F851BDE760C008E0A57 /* GameScene.swift */,
+				E6745FA61BDE7A26008E0A57 /* spark.png */,
+				E6745F871BDE760C008E0A57 /* GameViewController.swift */,
+				E6745F891BDE760C008E0A57 /* Main.storyboard */,
+				E6745F8C1BDE760C008E0A57 /* Assets.xcassets */,
+				E6745F8E1BDE760C008E0A57 /* LaunchScreen.storyboard */,
+				E6745F911BDE760C008E0A57 /* Info.plist */,
+			);
+			path = PixelBattle;
+			sourceTree = "<group>";
+		};
+		E6745F991BDE760C008E0A57 /* PixelBattleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6745F9A1BDE760C008E0A57 /* PixelBattleTests.swift */,
+				E6745F9C1BDE760C008E0A57 /* Info.plist */,
+			);
+			path = PixelBattleTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6745F7D1BDE760C008E0A57 /* PixelBattle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6745F9F1BDE760C008E0A57 /* Build configuration list for PBXNativeTarget "PixelBattle" */;
+			buildPhases = (
+				E6745F7A1BDE760C008E0A57 /* Sources */,
+				E6745F7B1BDE760C008E0A57 /* Frameworks */,
+				E6745F7C1BDE760C008E0A57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PixelBattle;
+			productName = PixelBattle;
+			productReference = E6745F7E1BDE760C008E0A57 /* PixelBattle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6745F951BDE760C008E0A57 /* PixelBattleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6745FA21BDE760C008E0A57 /* Build configuration list for PBXNativeTarget "PixelBattleTests" */;
+			buildPhases = (
+				E6745F921BDE760C008E0A57 /* Sources */,
+				E6745F931BDE760C008E0A57 /* Frameworks */,
+				E6745F941BDE760C008E0A57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6745F981BDE760C008E0A57 /* PBXTargetDependency */,
+			);
+			name = PixelBattleTests;
+			productName = PixelBattleTests;
+			productReference = E6745F961BDE760C008E0A57 /* PixelBattleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6745F761BDE760C008E0A57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Mac Bellingrath";
+				TargetAttributes = {
+					E6745F7D1BDE760C008E0A57 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					E6745F951BDE760C008E0A57 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = E6745F7D1BDE760C008E0A57;
+					};
+				};
+			};
+			buildConfigurationList = E6745F791BDE760C008E0A57 /* Build configuration list for PBXProject "PixelBattle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6745F751BDE760C008E0A57;
+			productRefGroup = E6745F7F1BDE760C008E0A57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6745F7D1BDE760C008E0A57 /* PixelBattle */,
+				E6745F951BDE760C008E0A57 /* PixelBattleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6745F7C1BDE760C008E0A57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6745F841BDE760C008E0A57 /* GameScene.sks in Resources */,
+				E6745FA81BDE7A26008E0A57 /* spark.png in Resources */,
+				E6745F901BDE760C008E0A57 /* LaunchScreen.storyboard in Resources */,
+				E6745F8D1BDE760C008E0A57 /* Assets.xcassets in Resources */,
+				E6745F8B1BDE760C008E0A57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6745F941BDE760C008E0A57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6745F7A1BDE760C008E0A57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6745F861BDE760C008E0A57 /* GameScene.swift in Sources */,
+				E6745F881BDE760C008E0A57 /* GameViewController.swift in Sources */,
+				E6745F821BDE760C008E0A57 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6745F921BDE760C008E0A57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6745F9B1BDE760C008E0A57 /* PixelBattleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6745F981BDE760C008E0A57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6745F7D1BDE760C008E0A57 /* PixelBattle */;
+			targetProxy = E6745F971BDE760C008E0A57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6745F891BDE760C008E0A57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6745F8A1BDE760C008E0A57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6745F8E1BDE760C008E0A57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6745F8F1BDE760C008E0A57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6745F9D1BDE760C008E0A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6745F9E1BDE760C008E0A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6745FA01BDE760C008E0A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PixelBattle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.macbellingrath.PixelBattle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E6745FA11BDE760C008E0A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PixelBattle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.macbellingrath.PixelBattle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E6745FA31BDE760C008E0A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = PixelBattleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.macbellingrath.PixelBattleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PixelBattle.app/PixelBattle";
+			};
+			name = Debug;
+		};
+		E6745FA41BDE760C008E0A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PixelBattleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.macbellingrath.PixelBattleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PixelBattle.app/PixelBattle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6745F791BDE760C008E0A57 /* Build configuration list for PBXProject "PixelBattle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6745F9D1BDE760C008E0A57 /* Debug */,
+				E6745F9E1BDE760C008E0A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6745F9F1BDE760C008E0A57 /* Build configuration list for PBXNativeTarget "PixelBattle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6745FA01BDE760C008E0A57 /* Debug */,
+				E6745FA11BDE760C008E0A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E6745FA21BDE760C008E0A57 /* Build configuration list for PBXNativeTarget "PixelBattleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6745FA31BDE760C008E0A57 /* Debug */,
+				E6745FA41BDE760C008E0A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6745F761BDE760C008E0A57 /* Project object */;
+}
